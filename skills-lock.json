@@ -6,6 +6,36 @@
       "sourceType": "github",
       "skillPath": "skills/find-skills/SKILL.md",
       "computedHash": "9e1c8b3103f92fa8092568a44fe64858de7c5c9dc65ce4bea8f168080e889cfd"
+    },
+    "git-workflows": {
+      "source": "miles990/claude-software-skills",
+      "sourceType": "github",
+      "skillPath": "tools-integrations/git-workflows/SKILL.md",
+      "computedHash": "1c434c0a5f145a92586036e78d19653256b5b5ad2524793bf28c1e78a86c9603"
+    },
+    "javascript-typescript": {
+      "source": "miles990/claude-software-skills",
+      "sourceType": "github",
+      "skillPath": "programming-languages/javascript-typescript/SKILL.md",
+      "computedHash": "0ac1a72b098d7ae75239beb805c65c0fabca15a68bb68351fc556f00e49f922c"
+    },
+    "prod-ready": {
+      "source": "aravhawk/claude-code-utils",
+      "sourceType": "github",
+      "skillPath": "skills/prod-ready/SKILL.md",
+      "computedHash": "9f248a99ff906b06b5653d20addce0d23e9478a788c1723fe2a1ee9634c34a1f"
+    },
+    "production-ready": {
+      "source": "adamos486/skills",
+      "sourceType": "github",
+      "skillPath": "production-ready/SKILL.md",
+      "computedHash": "5333e14c8217b783720646ccba84bf366e6dac218df43b8857f716b747ad9974"
+    },
+    "testing-cicd-init": {
+      "source": "shipshitdev/library",
+      "sourceType": "github",
+      "skillPath": "skills/testing-cicd-init/SKILL.md",
+      "computedHash": "215fa77ca965ded24e83b2cee76a5e182f62cab0460b0da49932322a2c3be711"
     }
   }
 }

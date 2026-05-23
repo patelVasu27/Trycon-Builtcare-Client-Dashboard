@@ -18,9 +18,21 @@ export default function StatsOverview({
 
     filteredClients.forEach((c) => {
       const unit = c.quantityUnit || "rft";
-      const eqRft = unit === "panels" ? c.quantity * 8 : c.quantity;
-      const eqPanels =
-        unit === "panels" ? c.quantity : Math.ceil(c.quantity / 8);
+      let eqRft = 0;
+      let eqPanels = 0;
+      if (unit === "panels") {
+        eqRft = c.quantity * 8;
+        eqPanels = c.quantity;
+      } else if (unit === "rmt") {
+        eqRft = c.quantity * 3.28084;
+        eqPanels = Math.ceil(eqRft / 8);
+      } else if (unit === "cement" || unit === "post") {
+        eqRft = 0;
+        eqPanels = 0;
+      } else {
+        eqRft = c.quantity;
+        eqPanels = Math.ceil(c.quantity / 8);
+      }
       totalRft += eqRft;
       totalPanels += eqPanels;
       totalVal += c.quantity * c.rate;

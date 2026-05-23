@@ -1,0 +1,6 @@
+{
+  "name": "TRYCON BUILTCARE Client Dashboard",
+  "description": "Fast and modern client information and precast boundary wall manufacturing order dashboard with search, site location filters, and quantity unit toggles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -19,8 +19,8 @@ interface FilterBarProps {
   setMinRateSearch: (val: string) => void;
   minQtySearch: string;
   setMinQtySearch: (val: string) => void;
-  selectedUnitType: "all" | "rft" | "panels";
-  setSelectedUnitType: (val: "all" | "rft" | "panels") => void;
+  selectedUnitType: "all" | "rft" | "panels" | "rmt" | "cement" | "post";
+  setSelectedUnitType: (val: "all" | "rft" | "panels" | "rmt" | "cement" | "post") => void;
   uniqueLocations: string[];
   clients: Client[];
   filteredCount: number;
@@ -261,6 +261,9 @@ export default function FilterBar({
               <option value="all">All</option>
               <option value="rft">RFT</option>
               <option value="panels">Panels</option>
+              <option value="rmt">RMT</option>
+              <option value="cement">Cement</option>
+              <option value="post">Post</option>
             </select>
           </div>
         </div>

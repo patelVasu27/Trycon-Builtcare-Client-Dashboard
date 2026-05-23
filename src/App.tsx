@@ -50,7 +50,7 @@ export default function App() {
   const [minRateSearch, setMinRateSearch] = React.useState("");
   const [minQtySearch, setMinQtySearch] = React.useState("");
   const [selectedUnitType, setSelectedUnitType] = React.useState<
-    "all" | "rft" | "panels"
+    "all" | "rft" | "panels" | "rmt" | "cement" | "post"
   >("all");
 
   // Form states under Editorial Aesthetic guidelines

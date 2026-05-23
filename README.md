@@ -2,10 +2,9 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# TRYCON BUILTCARE Client Dashboard
 
-This contains everything you need to run your app locally.
-https://ai.studio/apps/41d39173-c1d3-41b7-86d9-4c7b1377a116
+Client information and precast boundary wall manufacturing order dashboard with search, site location filters, and quantity unit toggles.
 
 ## Run Locally
 
@@ -13,6 +12,7 @@ https://ai.studio/apps/41d39173-c1d3-41b7-86d9-4c7b1377a116
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Run the app:
    `npm run dev`
+
+> **Note:** If any API placeholders were inserted during setup, configure them in `.env` before running.
